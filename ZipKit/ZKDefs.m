@@ -20,7 +20,7 @@ NSString *const ZKFileAttributesKey = @"fileAttributes";
 NSString *const ZKPathKey = @"path";
 
 const unsigned long long ZKZipBlockSize = 262144;
-const UInt32 ZKNotificationIterations = 100;
+const UInt32 ZKNotificationIterations = 1;//00;
 
 const UInt32 ZKCDHeaderMagicNumber = 0x02014B50;
 const UInt32 ZKCDHeaderFixedDataLength = 46;
